@@ -23,8 +23,10 @@ body {
 	margin-bottom: 3px;
 	color: #67605F;
 }
-#contactDetails ul li a:hover { 
-	color: #F8E8CF;
+#name, #contactDetails {
+    float: none;
+    width: 100%;
+    text-align: center;
 }
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
