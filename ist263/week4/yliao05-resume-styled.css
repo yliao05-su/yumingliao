@@ -1,0 +1,27 @@
+body {
+    background-color: #FDF5EE;
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+    color: #67605F;
+    text-align: left;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 11px;
+    color: black;
+}
+p.border {
+    border-bottom: 1px solid #F6C6A9;
+}
+h2 {
+    font-family: Flama-Book,'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+    font-weight: bold;
+    color: #67605F;
+    font-size: 16px;
+
+}
+ul {
+    list-style-type: circle;
+}
