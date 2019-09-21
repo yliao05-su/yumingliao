@@ -1,26 +1,41 @@
 body {
     background-color: #FDF5EE;
 }
-h1 {
+#name {
+	float: left;
+}
+#name h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 22px;
-    color: #67605F;
+    font-size: 34px;
+    color: #D67573;
     text-align: left;
+    margin-bottom: -6px;
+}
+#Contact {
+	float: right;
+}
+#Contact ul {
+	list-style-type: none;
+	font-size: 12px;
+	margin-top: 3px;
+}
+#Contact ul li {
+	margin-bottom: 3px;
+	color: #67605F;
+}
+#contactDetails ul li a:hover { 
+	color: #F8E8CF;
 }
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 11px;
-    color: black;
-}
-p.border {
-    border-bottom: 1px solid #F6C6A9;
+    font-size: 20px;
+    color: #67605F;
 }
 h2 {
     font-family: Flama-Book,'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
     font-weight: bold;
-    color: #67605F;
+    color: black;
     font-size: 16px;
-
 }
 ul {
     list-style-type: circle;
