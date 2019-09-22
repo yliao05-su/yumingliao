@@ -3,7 +3,7 @@ body {
     margin: 0 auto;
     background-color: #e7dfcf;
 }
-.top-banner h1 {
+#top-banner h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 36px;
     color: #ab9c81;
@@ -11,7 +11,7 @@ body {
     margin-bottom: 3px;
     padding: 10px;
 }
-.top-banner p {
+#top-banner p {
     font-size: 12px;
     color: #4c525f;
     font-family: Flama-Book,'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
@@ -22,23 +22,23 @@ body {
     margin: 0 20px 0 20px;
     padding-bottom: 20px;
 }
-.main-content p {
+#main-content p {
     font-size: 12px;
     color: #4c525f;
     font-family: Flama-Book,'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
     text-align: left;
     margin-bottom: 5px;
 }
-.main-content h2 {
+#main-content h2 {
     font-family: Flama-Book,'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
     font-weight: bold;
     color: #517c63;
     font-size: 20px;
 }
-.main-content ul {
+#main-content ul {
     list-style-type: circle;
 }
-.main-content li {
+#main-content li {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 10px;
     color: #4c525f;
