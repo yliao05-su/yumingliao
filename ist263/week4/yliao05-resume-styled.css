@@ -5,25 +5,26 @@ body {
 }
 #name {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 36px;
+    font-size: 40px;
     color: #ab9c81;
-    text-align: left;
+    text-align: center;
     margin-bottom: 3px;
     padding: 10px;
 }
 #contact {
     font-size: 12px;
+    text-align: center;
     color: #4c525f;
     font-family: Flama-Book,'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
     text-align: left;
     margin-bottom: 5px;
 }
 #main-content {
-    margin: 0 20px 0 20px;
     padding-bottom: 20px;
 }
 #main-content p {
-    font-size: 12px;
+    font-size: 15px;
+    text-align: center;
     color: #4c525f;
     font-family: Flama-Book,'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
     text-align: left;
@@ -32,14 +33,17 @@ body {
 #main-content h2 {
     font-family: Flama-Book,'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
     font-weight: bold;
+    text-align: center;
     color: #517c63;
     font-size: 20px;
 }
 #main-content ul {
+    text-align: center;
     list-style-type: circle;
 }
 #main-content li {
+    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 10px;
+    font-size: 13px;
     color: #4c525f;
 }
