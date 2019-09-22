@@ -17,12 +17,6 @@ section {
 section:last-child {
     border-bottom: none;
 }
-.section-title {
-    font-family: Flama-Book,'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
-    font-weight: bold;
-    color: #517c63;
-    font-size: 20px;
-}
 .name {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 44px;
@@ -34,9 +28,10 @@ section:last-child {
     font-family: Flama-Book,'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 }
 .main-content {
-    font-size: 15px;
-    color: #4c525f;
     font-family: Flama-Book,'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+    font-weight: bold;
+    color: #517c63;
+    font-size: 20px;
 }
 .description {
     font-size: 12px;
