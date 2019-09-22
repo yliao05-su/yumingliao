@@ -3,30 +3,24 @@ body {
     background-color: #e7dfcf;
     color: #4c525f;
 }
-a:hover {
-    text-decoration: underline;
-}
-.top-banner {
-    max-width: 960px;
-    margin: 40px auto;
-    padding: 32px;
-    background-color:  #e7dfcf;
-}
 section {
     display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-gap: 20px;
-    padding: 24px 0;
-}
-section:last-child {
-    border-bottom: none;
+    width: 100%;
+    height: 250px;
+    grid-template-areas: "head head"
+                         "side main"
+                         "side foot";
+    grid-template-rows: 50px 1fr 30px;
+    grid-template-columns: 150px 1fr;
 }
 .name {
+    grid-area: head;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 44px;
     color: #ab9c81;
 }
 .contact {
+    grid-area: side;
     font-size: 12px;
     color: #4c525f;
     font-family: Flama-Book,'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
@@ -38,12 +32,10 @@ section:last-child {
     font-size: 20px;
 }
 .job {
+    grid-area: main;
     padding-bottom: 24px;
     margin-bottom: 24px;
   } 
-.job:last-child {
-    border-bottom: none;
-  }
 .company {
     display: flex;
     justify-content: space-between;
