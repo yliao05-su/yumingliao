@@ -24,35 +24,35 @@ td {
     text-align: center;
 }
 
-#cowboys {
+td #cowboys {
     color: #041E42;
     background: #869397;
 }
-#bears {
+td #bears {
     color: #C83803;
     background: #0B162A;
 }
-#saints {
+td #saints {
     color: #D3BC8D;
     background: #101820;
 }
-#rams {
+td #rams {
     color: #002244;
     background: #FFFFFF;
 }
-#ravens {
+td #ravens {
     color: #241773;
     background: #9e7c0c;
 }
-#texans {
+td #texans {
     color: #A9162D;
     background: #022030;
 }
-#chiefs {
+td #chiefs {
     color: #E31837;
     background: #FFB81C;
 }
-#patriots {
+td #patriots {
     color: #e90101;
     background: #07163f;
 }
