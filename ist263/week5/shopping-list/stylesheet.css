@@ -6,6 +6,7 @@ ul {
 li {
     list-style-type: none;
     display:block;
+    block-size: auto;
     padding: 10px;
 }
 .odd {
