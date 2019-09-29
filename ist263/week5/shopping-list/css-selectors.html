@@ -7,13 +7,22 @@
     <link rel="stylesheet" type="text/csss" href="stylesheet.css" /> 
 
     <style>
-
+    table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 10px;
+    }
+    td {
+    padding: 10px;
+    text-align: center;
+    }
+    a:hover {
+    color: orange;
+    }
         /* Pseudo clases */
         /* Table width via pseudo-classes */
         /*
             - How do we add different colors for table rows?
-            - Expand the list of NFL winners, add classes for NFC and AFC teams
-            - Add IDs for team names so you can choose their colors
         */
     </style>
 </head>
@@ -32,28 +41,6 @@
         <li class="even">Maple Syrup</li>
     </ul>
 
-    <table> 
-        <tr> 
-            <th class="NFC">NFC teams</th> 
-            <th class="AFC">AFC teams</th> 
-        </tr> 
-        <tr> 
-            <td id="cowboys">cowboys</td> 
-            <td id="patriots">patriots</td> 
-        </tr> 
-        <tr> 
-            <td id="bears">bears</td> 
-            <td id="ravens">ravens</td> 
-        </tr> 
-        <tr> 
-            <td id="saints">saints</td> 
-            <td id="taxens">taxens</td> 
-         </tr> 
-         <tr> 
-            <td id="rams">rams</td> 
-            <td id="chiefs">chiefs</td> 
-         </tr> 
-    </table>   
 </body>
 
 </html>
