@@ -3,10 +3,11 @@ ul {
     padding: 0;
     width: 100%;
 }
-li {
+li:before {
     list-style-type: none;
     display:block;
     block-size: auto;
+    position: absolute;
     padding: 10px;
 }
 .odd {
