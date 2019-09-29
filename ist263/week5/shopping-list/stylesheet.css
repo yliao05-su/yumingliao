@@ -5,15 +5,14 @@ ul {
 }
 li {
     list-style-type: none;
-    display: block;
-    float: left;
+    display:inline-block;
+    list-style-type: none;
     width: 100px;
-    height: 100px;
     padding: 10px;
 }
 .odd {
     background: #FFF;
 }
- .even {
+.even {
     background: #CCC;
 } 
