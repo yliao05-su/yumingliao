@@ -8,9 +8,9 @@
         padding: 10px;
     }
     .odd {
-        background: #CCC;
+        background: #FFF;
     }
     
     .even {
-        background: #FFF;
+        background: #CCC;
     } 
