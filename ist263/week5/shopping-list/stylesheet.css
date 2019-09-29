@@ -1,7 +1,16 @@
 
-#odd li {
-    background: #CCC;
-}
-#even li {
-    background: #FFF;
-}
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    li {
+        padding: 10px;
+    }
+    .odd {
+        background: #CCC;
+    }
+    
+    .even {
+        background: #FFF;
+    } 
