@@ -6,6 +6,7 @@ ul {
 li {
     list-style-type: none;
     display:block;
+    padding: 10px;
 }
 .odd {
     background: #f1f1f1;
@@ -13,4 +14,51 @@ li {
 .even {
     background:#e1e1e1;
 } 
+table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 10px;
+}
+td {
+    padding: 10px;
+    text-align: center;
+}
 
+#cowboys {
+    color: #041E42;
+    background: #869397;
+}
+#bears {
+    color: #C83803;
+    background: #0B162A;
+}
+#saints {
+    color: #D3BC8D;
+    background: #101820;
+}
+#rams {
+    color: #002244;
+    background: #FFFFFF;
+}
+#ravens {
+    color: #241773;
+    background: #9e7c0c;
+}
+#texans {
+    color: #A9162D;
+    background: #022030;
+}
+#chiefs {
+    color: #E31837;
+    background: #FFB81C;
+}
+#patriots {
+    color: #e90101;
+    background: #07163f;
+}
+
+
+
+a:hover {
+    color: orange;
+}
