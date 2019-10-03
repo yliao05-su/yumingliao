@@ -11,3 +11,7 @@ h1 {text-align: center;}
   display: flex;
   margin-bottom: 50px;
 }
+.image {
+  width: 250px;
+  height: 250px;
+}
