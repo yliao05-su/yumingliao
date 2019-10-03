@@ -1,6 +1,6 @@
 h1 {text-align: center;}
 .col {
-  flex: 1;
+  flex: 1 30%;
   text-align: center;
   margin: 10px;
   border: 2px solid #ccc;
@@ -10,8 +10,8 @@ h1 {text-align: center;}
 .row {
   display: flex;
   margin-bottom: 50px;
+  flex-wrap: wrap;
 }
 .image {
-  width: 250px;
-  height: 250px;
+  width: 100%;
 }
