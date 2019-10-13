@@ -3,8 +3,9 @@ body {
 }
 .container {
     width: 1200px;
+    margin-bottom: 1em;
 }
-div.page-content{
+.page-content{
     width: 1200px;
     margin: 0 auto;
 }
@@ -12,10 +13,10 @@ div.page-content{
     background: #333;
     color: #fff;
 }
-div.site-header p {
+.site-header p {
     margin: 0;
 }
-div.site-header h1 {
+.site-header h1 {
     margin: 5px 0;
 }
 .row {
@@ -24,24 +25,20 @@ div.site-header h1 {
 .col {
     flex: 1;
 }
-aside {
-    flex:1;
-    display: flex;
-}
-main {
+.main {
     flex:1;
     margin: 10px;
     padding: 10px;
 }
-article {
+.article {
     flex:1;
-    width:50%;
-    margin-left: 1em;
-    margin-right:1em;
-    padding:.5em;
+    margin: 10px;
+    border: 1px solid;
+    padding: 10px;
     background-color:lightgrey;
 }
 img {
     width: 100%;
     height: auto;
 }
+
