@@ -9,3 +9,11 @@ nav {
     font-weight: 300;
     letter-spacing: 1px;
   }
+  h1 {
+    text-align: center;
+  }
+  img {
+  width: 696px;
+  height: 434px;
+  padding: 60px;
+  }
