@@ -23,17 +23,9 @@ li a:hover {
   }
 
 footer {
-  flex-shrink: none;
+  display: block;
   font-size: 95%;
   font-family: 'Barlow Condensed', sans-serif;  
-}
-
-.jumbotron-fluid h1 {
-  color: #ddd; 
-  font-family: 'Modak', cursive;
-  margin-bottom:0;
-  font-size: 500%;
-  background-color:  rgb(45, 44, 44);
 }
 
 .home h1 {
@@ -46,18 +38,8 @@ footer {
   transform: translate(-50%,-50%);   
   font-size: 500%
 }
-.home img {
-  position: static;
-  max-width: 85%;
-  height: auto;
-  padding: 60px;
-  float: right;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 body {
-  background-color: rgb(45, 44, 44);
+  background-color: #ddd;
   margin:0 auto;
 }
 .homepage p {
@@ -112,7 +94,13 @@ font-family: 'Barlow Condensed', sans-serif;
   background-color: white;
   overflow: hidden;
 }  
-
+.jumbotron-fluid h1 {
+  color: #ddd; 
+  font-family: 'Modak', cursive;
+  margin-bottom:0;
+  font-size: 500%;
+  background-color:  rgb(45, 44, 44);
+}
 
 .col img{
     width: 280px;
