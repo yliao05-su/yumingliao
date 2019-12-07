@@ -54,7 +54,7 @@ font-family: 'Barlow Condensed', sans-serif;
 }
 
 .two-colors {
-  background: linear-gradient(to bottom,  rgb(45, 44, 44) 0%, rgb(45, 44, 44) 50%, rgb(45, 44, 44) 50%,white 50%,white 100%);
+  background: linear-gradient(to bottom,  rgb(45, 44, 44) 0%, rgb(45, 44, 44) 40%, rgb(45, 44, 44) 50%,white 50%,white 100%);
   margin:0 auto; 
 }
 .page-two img {
